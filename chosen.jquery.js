@@ -526,21 +526,21 @@
 
     AbstractChosen.browser_is_supported = function() {
       if (/iP(od|hone)/i.test(window.navigator.userAgent)) {
-        return false;
+        return true;
       }
       if (/Android/i.test(window.navigator.userAgent)) {
         if (/Mobile/i.test(window.navigator.userAgent)) {
-          return false;
+          return true;
         }
       }
       if (/IEMobile/i.test(window.navigator.userAgent)) {
-        return false;
+        return true;
       }
       if (/Windows Phone/i.test(window.navigator.userAgent)) {
-        return false;
+        return true;
       }
       if (/BlackBerry/i.test(window.navigator.userAgent)) {
-        return false;
+        return true;
       }
       if (/BB10/i.test(window.navigator.userAgent)) {
         return false;
