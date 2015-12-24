@@ -44,7 +44,7 @@
   "homepage": "http://harvesthq.github.io/chosen/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/harvesthq/chosen"
+    "url": "https://github.com/wizzor/chosen.git"
   },
   "dependencies": {
     "jquery": ">=1.4.4"
